@@ -1,0 +1,13 @@
+@use "../abstract/index" as *;
+
+body {
+  font: {
+    size: fs(400);
+    weight: $fw-400;
+    family: $ff-sans
+  }
+  color: clr(neutral, 900);
+  background-color: clr(neutral, 100);
+  text-align: center;
+}
+

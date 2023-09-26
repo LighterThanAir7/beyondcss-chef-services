@@ -1,0 +1,4 @@
+.container {
+  width: min(100% - 2rem, 60rem); // 100% - 2 rem služi kao buffer, min gleda manju vrijednost
+  margin-inline: auto;
+}
